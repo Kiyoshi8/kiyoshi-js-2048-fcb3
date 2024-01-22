@@ -254,6 +254,25 @@ hr{
         font-size: 40px;
         font-weight: 700;
     }
-    
-    
+       
+}
+
+.music-btn {
+    display: flex;
+    justify-content:center;
+    max-width: 50%;
+    width: 300px;
+    margin: 0 auto;
+    font-size: 60%;
+    padding: 1px;
+    border: none;
+    border-radius: 50px;
+    background: rgba(255, 255, 255, 0.377);
+    color: black;
+    cursor: pointer;
+}
+  
+.music-btn:hover {
+    background: #bba0bb;
+    color: black;
 }
