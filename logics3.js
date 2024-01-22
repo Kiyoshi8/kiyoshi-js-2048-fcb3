@@ -1,3 +1,14 @@
+//Function play soundtrack
+var mySong = document.getElementById("mySong");
+var icon = document.getElementById("icon");
+
+icon.onclick = function(){
+    if(mySong.paused){
+        mySong.play();
+    }else{
+        mySong.pause();
+    }
+}
 // Variables are storage of values
 let board;
 let score = 0;
